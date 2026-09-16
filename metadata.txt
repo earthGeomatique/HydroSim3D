@@ -1,0 +1,30 @@
+[general]
+name=HydroSim3D
+qgisMinimumVersion=3.22
+description=Modelisation hydraulique (SWMM / HEC-RAS) avec visualisation 3D des resultats directement dans QGIS
+version=1.0.0
+author=EGEO - Earth Geomatique
+email=babacarfall.92@gmail.com
+
+about=HydroSim3D est un plugin QGIS qui integre les moteurs de modelisation
+    hydrologique/hydraulique SWMM (EPA Storm Water Management Model) et
+    HEC-RAS (US Army Corps of Engineers) dans une interface unique basee sur
+    PyQt. Il permet de configurer la topographie (MNT), le reseau
+    d'assainissement et les parametres de simulation depuis les couches QGIS,
+    de lancer les moteurs de calcul, puis de visualiser les resultats
+    (hauteurs d'eau, vitesses, directions d'ecoulement) en 3D via PyVista,
+    dans un panneau integre a QGIS, avec un rendu dynamique proche de
+    ParaView.
+
+tracker=https://github.com/earthgeomatique/forest-ml/issues
+repository=https://github.com/earthgeomatique/forest-ml
+homepage=https://github.com/earthgeomatique/forest-ml
+
+category=Plugins
+tags=hydrology,hydraulics,swmm,hec-ras,3d,pyvista,drainage,assainissement,inondation
+
+icon=resources/icons/hydrosim3d.svg
+experimental=True
+deprecated=False
+server=False
+hasProcessingProvider=False

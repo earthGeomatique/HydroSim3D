@@ -1,0 +1,19 @@
+# Dependances Python a installer dans l'environnement Python de QGIS
+# (ex: via l'invite OSGeo4W Shell sous Windows, ou pip3 --user sous Linux/macOS).
+#
+# Ces packages ne sont PAS embarques dans le plugin : QGIS utilise son propre
+# interpreteur Python, il faut donc les installer explicitement pour cet
+# interpreteur (et non le Python "systeme").
+
+# Moteur SWMM (execution + lecture des resultats binaires .out)
+pyswmm>=1.5
+
+# Lecture des resultats HEC-RAS (fichiers .pXX.hdf)
+h5py>=3.8
+
+# Rendu 3D des resultats (terrain, degrades de couleur, glyphes de vecteurs)
+pyvista>=0.43
+pyvistaqt>=0.11
+
+# Automatisation COM de HEC-RAS (Windows uniquement)
+pywin32>=305 ; sys_platform == "win32"
