@@ -5,9 +5,15 @@ Plugin QGIS (PyQt) integrant les moteurs de modelisation **SWMM**
 fluviale 2D), avec visualisation 3D des resultats directement dans QGIS
 (rendu de type ParaView, via PyVista).
 
-Ce depot est directement le dossier du plugin (pas de sous-dossier
-intermediaire) : son contenu doit etre copie dans un dossier nomme
-`HydroSim3D` (ou `hydrosim3d`) sous le repertoire des extensions QGIS.
+Ce depot est directement le dossier du plugin HydroSim3D (pas de
+sous-dossier intermediaire) : son contenu (hors `PointCloud2BIM/`, voir
+ci-dessous) doit etre copie dans un dossier nomme `HydroSim3D` sous le
+repertoire des extensions QGIS.
+
+> Ce depot heberge egalement un second plugin QGIS independant,
+> **[PointCloud2BIM](PointCloud2BIM/README.md)** (triangulation d'un MNT et
+> export IFC pour les logiciels BIM), dans son propre sous-dossier avec sa
+> propre installation.
 
 ## Architecture
 

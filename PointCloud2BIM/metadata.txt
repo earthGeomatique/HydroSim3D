@@ -1,0 +1,28 @@
+[general]
+name=PointCloud2BIM
+qgisMinimumVersion=3.22
+description=Convertit un MNT (raster GeoTIFF) en maquette IFC (BIM) exploitable dans Revit, ArchiCAD, FreeCAD, BIMvision...
+version=1.0.0
+author=EGEO - Earth Geomatique
+email=babacarfall.92@gmail.com
+
+about=PointCloud2BIM triangule un modele numerique de terrain (MNT, raster
+    GeoTIFF) selectionne dans QGIS et exporte le maillage obtenu au format
+    IFC (IFC2X3 ou IFC4), pour reutilisation directe dans les logiciels BIM
+    (Revit, ArchiCAD, FreeCAD, BIMvision...). Le nom du plugin est herite
+    d'une version anterieure basee sur des nuages de points LAS/LAZ ;
+    l'entree est desormais un MNT raster, plus adaptee aux flux de travail
+    topographiques courants.
+
+tracker=https://github.com/earthGeomatique/HydroSim3D/issues
+repository=https://github.com/earthGeomatique/HydroSim3D
+homepage=https://github.com/earthGeomatique/HydroSim3D
+
+category=Plugins
+tags=bim,ifc,mnt,dem,terrain,topographie,revit,archicad,freecad
+
+icon=resources/icons/pointcloud2bim.svg
+experimental=True
+deprecated=False
+server=False
+hasProcessingProvider=False

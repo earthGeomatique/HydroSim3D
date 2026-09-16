@@ -1,0 +1,8 @@
+# Dependances Python a installer dans l'environnement Python de QGIS
+# (ex: via l'invite OSGeo4W Shell sous Windows, ou pip3 --user sous Linux/macOS).
+#
+# GDAL (module osgeo) et numpy sont deja fournis par QGIS et n'ont pas besoin
+# d'etre reinstalles separement dans la plupart des cas.
+
+# Lecture/ecriture IFC (schemas IFC2X3 et IFC4)
+ifcopenshell>=0.7.0
